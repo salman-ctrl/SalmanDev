@@ -1,4 +1,3 @@
-import foto from '../../public/assets/foto ku.png'
 import { Send, Linkedin, Github, Mail, ArrowRight, ShieldQuestion, UserRound, ShieldEllipsis } from 'lucide-react';
 import { useEffect, useState } from 'react'
 
@@ -31,7 +30,6 @@ const Hero = () => {
 
 
     return (
-        <>
             <div className="flex h-full z-20">
                 <div className="w-1/2 ml-10 flex flex-col justify-center px-12">
                     <h1 className="text-5xl text-white font-bold mb-2">
@@ -47,13 +45,12 @@ const Hero = () => {
 
                 <div className="relative w-1/2 flex justify-center items-end">
                     <img
-                        src={foto}
+                        src="/assets/foto ku.png"
                         alt="fotosaya"
                         className="fotoku absolute bottom-0 max-h-full h-[850px]  w-[700px] object-cover  rounded-xl hover:scale-105  transition duration-1000"
                     />
                 </div>
             </div>
-        </>
     )
 }
 

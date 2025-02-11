@@ -2,11 +2,11 @@
     {
         "Sertifikat": [
             {
-                "title": "Javascript",
-                "company": "BWA",
-                "date": "22-06-2024",
-                "img": "/assets/sertifikat/AJAXAPI.png",
-                "tags": "javascript"
+                "title": "HTML",
+                "company": "Great Learning",
+                "date": "12-06-2024",
+                "img": "/assets/sertifikat/html.png",
+                "tags": "html"
             },
             {
                 "title": "Bootstrap",
@@ -16,6 +16,13 @@
                 "tags": "css"
             },
             {
+                "title": "MTCNA",
+                "company": "MikroTik",
+                "date": "29-06-2024",
+                "img": "/assets/sertifikat/mikrotik.jpg",
+                "tags": "microtik"
+            },
+            {
                 "title": "Dom JavaScript",
                 "company": "Code Politan",
                 "date": "12-06-2024",
@@ -23,11 +30,10 @@
                 "tags": "javascript"
             },
             {
-                "title": "Text-Editor",
-                "company": "Code Politan",
+                "title": "Cloud Computing",
+                "company": "Alibaba Cloud",
                 "date": "12-06-2024",
-                "img": "/assets/sertifikat/texteditor.png",
-                "tags": "other"
+                "img": "/assets/sertifikat/Alibaba cloud sertification.jpg"
             },
             {
                 "title": "Fundamental Frontend",
@@ -44,17 +50,11 @@
                 "tags": "other"
             },
             {
-                "title": "Cloud Computing",
-                "company": "Alibaba Cloud",
-                "date": "12-06-2024",
-                "img": "/assets/sertifikat/Alibaba cloud sertification.jpg"
-            },
-            {
-                "title": "HTML",
-                "company": "Great Learning",
-                "date": "12-06-2024",
-                "img": "/assets/sertifikat/html.png",
-                "tags": "html"
+                "title": "Javascript",
+                "company": "BWA",
+                "date": "22-06-2024",
+                "img": "/assets/sertifikat/AJAXAPI.png",
+                "tags": "javascript"
             },
             {
                 "title": "JavaScript",
@@ -64,17 +64,25 @@
                 "tags": "javascript"
             },
             {
-                "title": "HTML",
+                "title": "Text-Editor",
                 "company": "Code Politan",
                 "date": "12-06-2024",
-                "img": "/assets/sertifikat/javascript.png",
-                "tags": "html"
+                "img": "/assets/sertifikat/texteditor.png",
+                "tags": "other"
             },
             {
-                "title": "HTML",
+                "title": "Node Js",
                 "company": "Code Politan",
-                "date": "12-06-2024",
-                "img": "/assets/sertifikat/javascript.png"
+                "date": "04-12-2024",
+                "img": "/assets/sertifikat/node.js.jpg",
+                "tags": "Node js"
+            },
+            {
+                "title": "CSS",
+                "company": "Great Learning",
+                "date": "21-06-2024",
+                "img": "/assets/sertifikat/css.jpg",
+                "tags": "css"
             },
             {
                 "title": "HTML",
