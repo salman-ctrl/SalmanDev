@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import data from "../data.json"
 import { useNavigate } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react';
 
 interface Sertifikat {
     img: string;
