@@ -2,7 +2,7 @@ import Navbar from '../component/Navbar'
 import Skill from '../component/Skill'
 import About from '../component/about'
 import Hero from '../component/Hero'
-import Achievment from '../component/Achievment'
+// import Achievment from '../component/Achievment'
 
 
 
@@ -19,7 +19,7 @@ const LandingPage = () => {
             </section>
             <About />
             <Skill />
-            <Achievment />
+            {/* <Achievment /> */}
         </div>
     )
 }
