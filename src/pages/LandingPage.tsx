@@ -19,7 +19,6 @@ const LandingPage = () => {
             </section>
             <About />
             <Skill />
-            <Achievment />
         </div>
     )
 }
