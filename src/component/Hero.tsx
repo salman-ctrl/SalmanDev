@@ -50,13 +50,7 @@ const Hero = () => {
                     className="fotoku absolute bottom-0 max-h-full h-[850px]  w-[700px] object-cover  rounded-xl hover:scale-105  transition duration-1000"
                 />
             </div>
-            <div className="relative w-1/2 flex justify-center items-end">
-                <img
-                    src="/assets/foto ku.png"
-                    alt="fotosaya"
-                    className="fotoku absolute bottom-0 max-h-full h-[850px]  w-[700px] object-cover  rounded-xl hover:scale-105  transition duration-1000"
-                />
-            </div>
+
         </div>
     )
 }
