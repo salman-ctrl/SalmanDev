@@ -58,7 +58,7 @@ const Hire = () => {
                         <input type="email" id="email" className="w-full p-2 border border-gray-300 rounded-md bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Masukkan email Anda" />
                     </div>
                     <textarea className="w-full p-2 border border-teal-200 rounded-md bg-blue-50 focus:outline-none focus:ring-2 focus:ring-teal-400 mb-4" placeholder="Tulis pesan Anda"></textarea>
-                    <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition">Send</button>
+                    <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition">Kirim</button>
                 </div>
 
 
