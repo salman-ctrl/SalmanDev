@@ -35,7 +35,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <button onClick={handleHire} className="h-14 px-8 bg-white shadow-md text-black transition duration-500 rounded-lg hover:bg-gray-700 hover:text-sky-200 shadow-gray-500 hover:scale-105 ">
+            <button onClick={handleHire} className="h-14 px-8 bg-white shadow-md text-black transition duration-500 rounded-lg hover:bg-gray-700 hover:text-sky-200 shadow-gray-500 hover:scale-105 hover:border-sky-400 hover:border ">
                 Hire Me!
             </button>
 

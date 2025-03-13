@@ -25,7 +25,7 @@ const About = () => {
                     </div>                </div>
 
                 <div className='w-full h-full pl-16 pt-16 flex gap-8  justify-center mb-10 '>
-                    <div data-aos="fade-right" data-aos-delay="500" className='w-1/2 px-10 bg-black py-10 border-2 border-sky-300 hover:border-white rounded-lg transition duration-1000 hover:scale-105'>
+                    <div data-aos="fade-right" data-aos-delay="500" className='w-1/2 px-10 bg-black py-10 border-2 border-sky-300 hover:border-white rounded-lg transition duration-100 hover:scale-105'>
                         <h1 className='text-2xl py-5 text-blue-400 flex gap-2 items-center'> <ShieldQuestion className='h-7 w-7 text-blue-300' />Who I Am?</h1>
                         <p className='text-xs sm:text-xl text-fourth'>
                             Hi, I'm <span className='text-sky-300'> Salman Rizky</span> , a passionate <span className=' text-sky-300'>Front-End Web Developer</span>  and an Informatics student at Universitas Negeri Padang. I specialize in building interactive, user-friendly websites using HTML5, CSS3, JavaScript, and frameworks like React and Tailwind CSS. I’m driven by creating clean, efficient, and visually appealing web experiences that work seamlessly across devices.

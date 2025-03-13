@@ -16,8 +16,8 @@ const Hire = () => {
                 <div className="w-1/2 pt-64 pl-16">
                     <h1 className="text-white text-5xl text-bold pb-5" data-aos="fade-up">Contact Me</h1>
                     <p className="text-2xl text-gray-200" data-aos="fade-up" data-aos-delay="200">I'm always excited to collaborate on new projects and hear fresh ideas.</p>
-                    <div className="flex pt-20 gap-8">
-                        <div className="gap-2 mb-4 bg-white h-40 w-80 rounded-lg shadow-2xl" data-aos="fade-up" data-aos-delay="400">
+                    <div className="flex pt-20 gap-8" data-aos="fade-up" data-aos-delay="400">
+                        <div className="gap-2 mb-4 bg-white h-40 w-80 rounded-lg cursor-pointer duration-500 hover:scale-105 shadow-2xl" >
                             <div className="flex items-center gap-2 py-2 px-4">
                                 <Clock className="h-5 w-5 text-blue-500" />
                                 <h1 className="text-xl font-semibold text-black">Availability</h1>
@@ -28,7 +28,7 @@ const Hire = () => {
                                 Best time: Monday-Friday, 9 AM - 6 PM (GMT+7)
                             </p>
                         </div>
-                        <div className="gap-2 mb-4 bg-white h-40 w-80 rounded-lg shadow-2xl" data-aos="fade-up" data-aos-delay="600">
+                        <div className="gap-2 mb-4 bg-white h-40 w-80 rounded-lg shadow-2xl hover:scale-[1.1] duration-500 cursor-pointer" >
                             <div className="flex items-center gap-2 py-2 px-4">
                                 <Mail className="h-5 w-5 text-blue-500" />
                                 <h1 className="text-xl font-semibold text-black">Quick Response</h1>
@@ -41,11 +41,10 @@ const Hire = () => {
                         </div>
                     </div>
                     <div className="flex justify-around items-center mt-16 mr-12">
-                        <div><FontAwesomeIcon icon={faGithub} className="w-12 h-12 cursor-pointer shadow-md shadow-gray-600" /> </div>
-                        <div><FontAwesomeIcon icon={faInstagram} className="w-12 h-12 cursor-pointer shadow-md " /> </div>
+                        <div><FontAwesomeIcon icon={faGithub} className="w-12 h-12 cursor-pointer " /></div>
+                        <div><FontAwesomeIcon icon={faInstagram} className="w-12 h-12 cursor-pointer" /> </div>
                         <div><FontAwesomeIcon icon={faLinkedin} className="w-12 h-12 cursor-pointer" /> </div>
                         <div><FontAwesomeIcon icon={faFacebook} className="w-12 h-12 cursor-pointer" /> </div>
-
                     </div>
 
                 </div>
@@ -63,7 +62,7 @@ const Hire = () => {
 
 
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 
 import data from "../data.json"
 
-
-
 interface Skill {
     img: string;
 }
@@ -29,12 +27,6 @@ const Skill = () => {
                             <img src={item.img} alt={`Skill ${index}`} className='w-20 h-20 skill' />
                         </div>
                     ))}
-                    {skills.map((item, index) => (
-                        <div key={index} className='flex-shrink-0'>
-                            <img src={item.img} alt={`Skill ${index}`} className='w-20 h-20 skill' />
-                        </div>
-                    ))}
-
                 </div>
             </div>
         </section>
