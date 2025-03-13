@@ -38,8 +38,8 @@ const Hero = () => {
                 <p className="text-4xl text-gray-300 mt-4">
                     {paragraph}
                 </p>
-                <button className="px-8 mt-16 py-4 text-black text-2xl bg-white rounded-xl hover:text-white hover:bg-black  hover:bg-black transition duration-500 w-max z-20 flex items-center gap-2 transition duration-300 hover:scale-110">
-                    <a href="#about">Learn More!</a> <ArrowRight />
+                <button className="px-8 mt-16 py-4 text-black text-2xl bg-white rounded-xl hover:text-white  hover:bg-black transition duration-500 w-max z-20 flex items-center gap-2 transition duration-300 hover:scale-110">
+                    <a href="#about" className='hover:#00FF00'>Learn More!</a> <ArrowRight />
                 </button>
             </div>
 

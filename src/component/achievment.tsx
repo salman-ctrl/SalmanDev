@@ -44,9 +44,9 @@ const Achievment = () => {
                                 <hr className='border-t-2 border-sky-300 mt-1' />
                             </div>
                         </div>
-                        <div className='flex flex-wrap mt-10 gap-20 pt-20 rounded-lg mx-20 items-center justify-evenly mb-12 pb-12'>
+                        <div data-aos="fade-right" data-aos-delay="1000" className='flex flex-wrap mt-10 gap-20 pt-20 rounded-lg mx-20 items-center justify-evenly mb-12 pb-12'>
                             {gambar.map((item, index) => (
-                                <div key={index} data-aos="fade-right" data-aos-delay="1000" className='data-aos= bg-gradient-to-br from-black  to-gray-400 rounded-md text-white font-bold overflow-hidden  cursor-pointer shadow-gray-800 shadow-md'>
+                                <div key={index} className='data-aos= bg-gradient-to-br from-black  to-gray-400 rounded-md text-white font-bold overflow-hidden  cursor-pointer shadow-gray-800 shadow-md'>
                                     <img src={item.img} alt="" className='h-72 w-96 hover:scale-105 transition duration-1000' />
                                     <div className='text-center h-20 flex items-center justify-center'>
                                         <div>

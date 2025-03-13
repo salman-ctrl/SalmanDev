@@ -5,10 +5,33 @@ import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
+const sosmed = [
+    {
+        icon: faInstagram,
+        link: "https://www.instagram.com/codew1thme?igsh=ajlhdXhjOWYwazYw",
+        text: "Instagram"
+    },
+    {
+        icon: faLinkedin,
+        link: "https://www.linkedin.com/in/salman-rizky-763253265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        text: "LinkedIn"
+    },
+    {
+        icon: faGithub,
+        link: "https://github.com/",
+        text: "Github"
+    },
+    {
+        icon: faFacebook,
+        link: "https://www.facebook.com/",
+        text: "Facebook"
+    },
+]
 
 AOS.init();  // Inisialisasi AOS di luar komponen jika hanya perlu sekali
 
 const Hire = () => {
+
     return (
         <div className="relative bg-cover bg-center h-screen opacity-black-2 w-full overflow-hidden bg-gradient-to-br from-black  to-blue-300">
             <Navbar />
@@ -40,24 +63,32 @@ const Hire = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex justify-around items-center mt-16 mr-12">
-                        <div><FontAwesomeIcon icon={faGithub} className="w-12 h-12 cursor-pointer " /></div>
-                        <div><FontAwesomeIcon icon={faInstagram} className="w-12 h-12 cursor-pointer" /> </div>
-                        <div><FontAwesomeIcon icon={faLinkedin} className="w-12 h-12 cursor-pointer" /> </div>
-                        <div><FontAwesomeIcon icon={faFacebook} className="w-12 h-12 cursor-pointer" /> </div>
+                    <div className="flex justify-around items-center  mt-12 mr-24">
+                        {sosmed.map((item, index) => (
+                            <a className="hover:scale-105 duration-500" key={index} href={item.link} target="_blank">
+                                <div className="w-15 h-15 flex flex-col justify-center items-center">
+                                    <FontAwesomeIcon icon={item.icon} className="w-12 h-12 cursor-pointer duration-400" />
+                                    <p>{item.text}</p>
+                                </div>
+                            </a>
+
+                        ))}
                     </div>
 
                 </div>
-                <div className="h-96 w-96 mr-32 flex flex-col items-center mt-64 bg-white justify-center rounded-lg shadow-lg p-6">
-                    <h1 className="mb-6 text-2xl font-semibold text-gray-800">Contact now!</h1>
-                    <div className="w-full mb-4">
-                        <label htmlFor="name" className="block text-gray-700 mb-1">Nama:</label>
-                        <input type="text" id="name" className="w-full p-2 border border-gray-300 rounded-md bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4" placeholder="Masukkan nama Anda" />
-                        <label htmlFor="email" className="block text-gray-700 mb-1">Email:</label>
-                        <input type="email" id="email" className="w-full p-2 border border-gray-300 rounded-md bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Masukkan email Anda" />
-                    </div>
-                    <textarea className="w-full p-2 border border-teal-200 rounded-md bg-blue-50 focus:outline-none focus:ring-2 focus:ring-teal-400 mb-4" placeholder="Tulis pesan Anda"></textarea>
-                    <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition">Kirim</button>
+                <div className="h-[500px] w-[500px] mr-32 flex flex-col items-center mt-44 bg-white justify-center rounded-lg shadow-lg p-6 hover:scale-105 duration-300">
+                    <form action="" className="w-full h-full">
+                        <h1 className="mb-6 text-2xl font-semibold text-center text-gray-800">Contact now!</h1>
+                        <div className="w-full mb-4">
+                            <label htmlFor="name" className="block text-gray-700 mb-1">Nama:</label>
+                            <input type="text" id="name" className="w-full py-3 px-3 border border-gray-300 rounded-md bg-blue-50 focus:outline-none focus:ring-1 focus:ring-blue-200 mb-4" placeholder="Masukkan nama Anda" />
+                            <label htmlFor="email" className="block text-gray-700 mb-1">Email:</label>
+                            <input type="email" id="email" className="w-full py-3 px-3 border border-gray-300 rounded-md bg-blue-50 focus:outline-none focus:ring-1 focus:ring-sky-200" placeholder="Masukkan email Anda" />
+                        </div>
+                        <label htmlFor="textarea" className="mb-1">Pesan :</label>
+                        <textarea className="w-full p-2 border border-gray-200 rounded-md h-32 bg-blue-50 focus:outline-none focus:ring-2mb-4" placeholder="Tulis pesan Anda"></textarea>
+                        <button className="px-6 py-2 bg-blue-500 text-white mt-7 font-semibold rounded-md hover:bg-blue-600 transition">Kirim</button>
+                    </form>
                 </div>
 
 

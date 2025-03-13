@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className="w-full h-20 flex flex-row pt-20 px-16 justify-between items-center text-white text-2xl z-50">
             <div className="flex items-center space-x-12 justify-evenly w-[70vh] h-20">
                 <button onClick={handleHome} className="h-20 w-20 cursor-pointer">
-                    <img src="/assets/logo.png" alt="logo" className="h-full w-full" />
+                    <img src="/assets/logo.png" alt="logo" className="h-full w-full hover:scale-105 duration-500" />
                 </button>
 
                 <div className='border-2 border-white px-16 py-3 rounded-[50px]' >
