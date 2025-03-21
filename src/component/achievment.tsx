@@ -70,8 +70,7 @@ const Achievment = () => {
 
                 <Showcase />
 
-            </div>
-        </section>
-    )
+
+                )
 }
-export default Achievment;
+                export default Achievment;ś
