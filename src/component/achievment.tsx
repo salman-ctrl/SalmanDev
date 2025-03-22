@@ -23,8 +23,9 @@ const Achievment = () => {
         const dataGambar = data[0]?.Sertifikat || [];
         setGambar(dataGambar);
     }, [])
-
-
+    const handleAchievment = () => {
+        navigate("/achievment");
+    }
     return (
         <section>
             <div className="relative bg-cover bg-center h-auto opacity-black-2 w-full overflow-hidden" >
