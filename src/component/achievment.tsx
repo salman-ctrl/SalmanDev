@@ -39,10 +39,7 @@ const Achievment = () => {
                             </div>                        <h1 className='text-center align-middle text-4xl text-sky-300 cursor-pointer hover:shadow-sky-300 overflow-hidden px-16 py-3  transition duration-1000 flex hover:scale-105 gap-5'>
                                 My Sertificate
                             </h1>
-                            <div className="w-1/5">
-                                <hr className='border-t-2 mr-16 border-sky-300' />
-                                <hr className='border-t-2 border-sky-300 mt-1' />
-                            </div>
+
                         </div>
                         <div data-aos="fade-right" data-aos-delay="1000" className='flex flex-wrap mt-10 gap-20 pt-20 rounded-lg mx-20 items-center justify-evenly mb-12 pb-12'>
                             {gambar.map((item, index) => (
