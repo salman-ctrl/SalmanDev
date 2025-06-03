@@ -18,7 +18,11 @@ const About = () => {
                         About Me
                         <UserRound className='mt-1 w-10 h-10' />
                     </h1>
-                              </div>
+                    <div className="w-1/5">
+                        <hr className='border-t-2 mr-32 mb-1 border-sky-300' />
+                        <hr className='border-t-2 mr-16 border-sky-300' />
+                        <hr className='border-t-2 border-sky-300 mt-1' />
+                    </div>                </div>
 
                 <div className='w-full h-full pl-16 pt-16 flex gap-8  justify-center mb-10 '>
                     <div className='w-1/2 px-10 bg-black py-10 border-2 border-sky-300 hover:border-white rounded-lg transition duration-700 hover:scale-105'>
