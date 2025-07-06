@@ -11,7 +11,9 @@ interface Sertifikat {
     company: string;
 }
 
-const Showcase = () => {
+
+
+const Achievement = () => {
     const [projects, setProjects] = useState<Sertifikat[]>([]);
     const [showAll, setShowAll] = useState(false);
     const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
@@ -75,7 +77,7 @@ const Showcase = () => {
                 <div
                     className="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse"
                     data-aos="fade-left"
-                    data-aos-delay="300"
+                    data-aos-delay="400"
                 ></div>
                 <div
                     className="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-br from-green-500/10 to-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"
@@ -271,4 +273,4 @@ const Showcase = () => {
     );
 };
 
-export default Showcase;
+export default Achievement;

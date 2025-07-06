@@ -1,15 +1,14 @@
 import Skill from '../component/Skill'
 import About from '../component/about'
 import Hero from '../component/Hero'
-import Achievment from '../component/Achievment'
 import Showcase from '../component/showCase'
+import Achievement from '../component/Achievement'
 import Footer from '../component/Footer'
 
 
 
+
 const LandingPage = () => {
-
-
     return (
         <div className='overflow-hidden  bg-gradient-to-br from-black  to-gray-700 '>
             <section className='h-auto'>
@@ -21,7 +20,7 @@ const LandingPage = () => {
             <About />
             <Skill />
             <Showcase />
-            <Achievment />
+            <Achievement />
             <Footer />
         </div>
     )

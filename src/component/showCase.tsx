@@ -121,7 +121,7 @@ const Showcase = () => {
                 <div className="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm font-medium mb-6 border border-white/20" data-aos="fade-up" data-aos-delay="200">
                         <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-                        Featured Work
+                        Featured Work.
                     </div>
 
                     <h2 className="text-5xl md:text-6xl font-bold mb-6" data-aos="fade-up" data-aos-delay="400">
