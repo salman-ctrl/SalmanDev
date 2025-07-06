@@ -1,4 +1,3 @@
-import Navbar from '../component/Navbar'
 import Skill from '../component/Skill'
 import About from '../component/about'
 import Hero from '../component/Hero'
