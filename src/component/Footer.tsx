@@ -52,7 +52,7 @@ const Footer = () => {
         { name: 'About', url: '#about' },
         { name: 'Projects', url: '#showcase-section' },
         { name: 'Skills', url: '#skill' },
-        { name: 'Contact', url: '#' }
+        { name: 'Contact', url: '#heroś' }
     ];
 
     const services = [
@@ -168,7 +168,7 @@ const Footer = () => {
                             <h4 className="text-xl font-semibold text-sky-300 mb-2">Stay Updated</h4>
                             <p className="text-gray-300">Get the latest updates on my projects and tech insights.</p>
                         </div>
-                        <div className="flex gap-2 min-w-0 md:min-w-80">
+                        <div className="flex flex-col gap-2 min-w-0 md:min-w-80 ">
                             <input
                                 type="email"
                                 placeholder="Enter your email"
