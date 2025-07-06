@@ -15,6 +15,9 @@ const Navbar = () => {
     const handleAchievment = () => {
         navigate("/achievment")
     }
+    const handleShowCase = () => {
+        navigate("/showcase")
+    }
 
     return (
         <nav className="w-full h-20 flex flex-row pt-20 px-16 justify-between items-center text-white text-2xl z-50">
@@ -28,8 +31,8 @@ const Navbar = () => {
                         <li>
                             <button onClick={handleAchievment} className="hover:text-blue-500 transition duration-200 cursor-pointer">Achievment</button>
                         </li>
-                        <li>
-                            <a href="#" className="hover:text-blue-500 transition duration-200">Showcase</a>
+                        <li >
+                            <button onClick={handleShowCase} className='hover:text-blue-500 transition duration-200 cursor-pointer'>Showcase</button>
                         </li>
                     </ul>
                 </div>

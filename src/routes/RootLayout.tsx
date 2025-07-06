@@ -3,6 +3,7 @@ import Achievment from "../pages/Achievment";
 import LandingPage from "../pages/LandingPage";
 import Project from "../pages/Project";
 import Hire from "../component/Hire";
+import Showcase from "../component/showCase";
 
 
 export const router = createBrowserRouter([
@@ -21,5 +22,9 @@ export const router = createBrowserRouter([
     {
         path: "/hire",
         element: <Hire />
+    },
+    {
+        path: "/showcase",
+        element: <Showcase />
     }
 ])

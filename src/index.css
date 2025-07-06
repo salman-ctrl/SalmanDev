@@ -73,16 +73,16 @@ img {
   animation-play-state: paused;
 }
 
-.skill {
+/* .skill {
   filter: grayscale(100%);
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
-}
+} */
 
-.skill:hover {
+/* .skill:hover {
   filter: grayscale(0);
   transform: scale(1.2);
-}
+} */
 
 .font-medium li a:active {
   color: orangered;

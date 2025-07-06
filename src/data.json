@@ -119,34 +119,44 @@
         ],
         "Skill": [
             {
-                "img": "/assets/HTML.png"
+                "img": "/assets/HTML.png",
+                "name": "HTML"
             },
             {
-                "img": "/assets/CSS.png"
+                "img": "/assets/CSS.png",
+                "name": "CSS"
             },
             {
-                "img": "/assets/javascript.png"
+                "img": "/assets/javascript.png",
+                "name": "JavaScript"
             },
             {
-                "img": "/assets/nodejs.png"
+                "img": "/assets/nodejs.png",
+                "name": "NodeJS"
             },
             {
-                "img": "/assets/bootstrap.png"
+                "img": "/assets/bootstrap.png",
+                "name": "Bootstrap"
             },
             {
-                "img": "/assets/react.png"
+                "img": "/assets/react.png",
+                "name": "React"
             },
             {
-                "img": "/assets/tailwind.png"
+                "img": "/assets/tailwind.png",
+                "name": "Tailwind"
             },
             {
-                "img": "/assets/typescript.png"
+                "img": "/assets/typescript.png",
+                "name": "TypeScript"
             },
             {
-                "img": "/assets/GitHub-logo.png"
+                "img": "/assets/GitHub-logo.png",
+                "name": "GitHub"
             },
             {
-                "img": "/assets/vercel.png"
+                "img": "/assets/vercel.png",
+                "name": "Vercel"
             }
         ]
     }
