@@ -173,17 +173,22 @@ const About = () => {
                             {/* Content */}
                             <div className="space-y-4 flex-grow">
                                 <p className='text-gray-300 leading-relaxed'>
-                                    Hi, I'm <span className='text-sky-300 font-semibold'>Salman Rizky</span>, a passionate <span className='text-sky-300 font-semibold'>Front-End Web Developer</span> and an Informatics student at Universitas Negeri Padang.
+                                    Hi, I'm <span className='text-sky-300 font-semibold'>Salman Rizky</span>, a passionate <span className='text-sky-300 font-semibold'>Fullstack Web Developer</span> and an Informatics student at Universitas Negeri Padang.
                                 </p>
 
                                 <p className='text-gray-300 leading-relaxed'>
-                                    I specialize in building interactive, user-friendly websites using HTML5, CSS3, JavaScript, and frameworks like React and Tailwind CSS. I'm driven by creating clean, efficient, and visually appealing web experiences that work seamlessly across devices.
+                                    I specialize in building interactive, user-friendly web applications using technologies like HTML5, CSS3, JavaScript, React, Tailwind CSS, Express.js, Laravel, and MongoDB. I'm committed to delivering clean, efficient, and responsive solutions from front to back.
                                 </p>
 
                                 <p className='text-gray-300 leading-relaxed'>
-                                    As a student, I'm constantly learning new technologies and keeping up with the latest trends in web development. My goal is to combine my technical skills with my creativity to build impactful websites that users love to engage with.
+                                    I have hands-on experience building a wide range of real-world projects as part of my personal portfolio, including full-featured CRUD systems, RESTful APIs, admin dashboards, landing pages, and interactive UI components. These projects demonstrate not only my technical proficiency, but also my ability to understand user needs and translate them into functional digital solutions.
+                                </p>
+
+                                <p className='text-gray-300 leading-relaxed'>
+                                    As a student, I'm constantly exploring new tools and frameworks, and staying up to date with the latest trends in fullstack development. My goal is to combine strong technical skills with creativity to build impactful digital experiences that are both beautiful and effective.
                                 </p>
                             </div>
+
 
                             {/* Bottom section */}
                             <div className="mt-6 pt-4 border-t border-sky-300/20">

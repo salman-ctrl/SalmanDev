@@ -14,7 +14,31 @@ const skillsData = [
     },
     { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", name: "TypeScript" },
     { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", name: "GitHub" },
-    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg", name: "Vercel" }
+    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg", name: "Vercel" },
+    {
+        img: "/assets/download.png",
+        name: "Laravel"
+    },
+    { img: "https://avatars.githubusercontent.com/u/102045415?s=200&v=4", name: "Filament" },
+    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", name: "Express" },
+    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", name: "MongoDB" },
+    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", name: "MySQL" },
+    { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", name: "Figma" },
+    { img: "/assets/Canva-New-Logo.png", name: "Canva" },
+    {
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+        name: "Postman"
+    },
+    {
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        name: "Next.js"
+    },
+    {
+        img: "/assets/npm.png",
+        name: "npm"
+    }
+
+
 ];
 
 interface Skill {

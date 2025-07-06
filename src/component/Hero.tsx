@@ -5,7 +5,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Hero = () => {
     const headlineText = " Who Am I..?";
-    const paragraphText = "I'm Salman, as a Frontend Web developer, passionate about turning ideas into stunning, functional, and user-friendly digital experiences."
+    const paragraphText = "I'm Salman, a Fullstack Web Developer passionate about turning ideas into stunning, functional, and user-friendly digital experiences.."
 
     const [headline, setHeadline] = useState("");
     const [paragraph, setParagraph] = useState("");
