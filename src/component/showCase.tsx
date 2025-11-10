@@ -52,7 +52,7 @@ const mockData = [
             {
                 "img": "/assets/showcase/quizzera.png",
                 "title": "Learning Management System",
-                "date": "2024-06-18",
+                "date": "2025-11-18",
                 "company": "EduTech",
                 "description": "Quize App Learning",
                 "technologies": ["Tailwind", "React", "TypeScript"],
@@ -61,7 +61,7 @@ const mockData = [
             {
                 "img": "/assets/showcase/webnagari.png",
                 "title": "Web Information(SID)",
-                "date": "2024-06-18",
+                "date": "2025-06-18",
                 "company": "EduTech",
                 "description": "Platform Infromasion for Village",
                 "technologies": ["Bootstrap", "Html", "Javascript"],
@@ -70,7 +70,7 @@ const mockData = [
             {
                 "img": "/assets/showcase/moodmap.png",
                 "title": "MoodMap",
-                "date": "2024-06-18",
+                "date": "2025-10-18",
                 "company": "EduTech",
                 "description": "Web App Journaling, Tracking Mood, Summary Mood Using NLP Model",
                 "technologies": ["Tailwind","NLP Model", "Flask", "Python", "TypeScript", "React"],
