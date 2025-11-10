@@ -23,6 +23,15 @@ const mockData = [
                 "link": "https://al-azam-asri.shop/"
             },
             {
+                "img": "/assets/showcase/chatapp.png",
+                "title": "Chat App",
+                "date": "2025-10-20",
+                "company": "Portfolio",
+                "description": "Realtime Chat can handle 200 user",
+                "technologies": ["React", "Tailwind", "Node", "Express", "Socket.io"],
+                "link": "https://github.com/salman-ctrl/trafellow-chat"
+            },
+            {
                 "img": "/assets/showcase/webcrafters.png",
                 "title": "WebCrafters",
                 "date": "2025-03-10",
