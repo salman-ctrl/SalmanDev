@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronRight, Calendar, Building, ExternalLink, Github, Eye, ArrowRight, Grid3X3, List } from 'lucide-react';
 
-// Mock data - replace with your actual data import
 const mockData = [
     {
         "Sertifikat": [
@@ -21,7 +20,7 @@ const mockData = [
                 "company": "Portfolio",
                 "description": "Office rental platform with global locations, integrated payments, and WhatsApp invoicing",
                 "technologies": ["React", "Tailwind", "Framer Motion", "Laravel", "Filament", "TypeScript"],
-                "link": "#"
+                "link": "https://al-azam-asri.shop/"
             },
             {
                 "img": "/assets/showcase/webcrafters.png",
@@ -29,7 +28,7 @@ const mockData = [
                 "date": "2025-03-10",
                 "company": "Portfolio",
                 "description": "Landing page for a service that offers custom website development and design solutions.",
-                "technologies": ["Html", "Tailwind", "Node"],
+                "technologies": ["Html", "Tailwind", "Next"],
                 "link": "https://webcrafters2-94vg2jz38-salmans-projects-df3b3e2f.vercel.app/"
             },
             {
@@ -51,14 +50,33 @@ const mockData = [
                 "link": "https://firstofficedev-fe-a4op.vercel.app/"
             },
             {
+                "img": "/assets/showcase/quizzera.png",
+                "title": "Learning Management System",
+                "date": "2024-06-18",
+                "company": "EduTech",
+                "description": "Quize App Learning",
+                "technologies": ["Tailwind", "React", "TypeScript"],
+                "link": "https://quizera-sigma.vercel.app/"
+            },
+            {
                 "img": "/assets/showcase/webnagari.png",
                 "title": "Learning Management System",
                 "date": "2024-06-18",
                 "company": "EduTech",
-                "description": "Online learning platform with video streaming",
+                "description": "Quize App Learning",
                 "technologies": ["Bootstrap", "Html", "Javascript"],
                 "link": "https://salman-ctrl.github.io/Website-Nagari-Kuamang-Alai-Ujung-Gading/"
-            }
+            },
+            {
+                "img": "/assets/showcase/moodmap.png",
+                "title": "MoodMap",
+                "date": "2024-06-18",
+                "company": "EduTech",
+                "description": "Web App Journaling, Tracking Mood, Summary Mood Using NLP Model",
+                "technologies": ["Tailwind","NLP Model", "Flask", "Python", "TypeScript", "React"],
+                "link": "https://github.com/salman-ctrl/MoodMap"
+            },
+            
         ]
     }
 ];
@@ -159,7 +177,6 @@ const Showcase = () => {
                     </div>
                 </div>
 
-                {/* Projects Grid/List */}
                 <div className={`${viewMode === 'grid'
                     ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-24'
                     : 'flex flex-col gap-6'
@@ -174,7 +191,6 @@ const Showcase = () => {
                             onMouseEnter={() => setHoveredProject(index)}
                             onMouseLeave={() => setHoveredProject(null)}
                         >
-                            {/* Project Image */}
                             <div className={`relative overflow-hidden ${viewMode === 'list' ? 'w-64 h-48 flex-shrink-0' : 'aspect-video'}`}>
                                 <img
                                     src={project.img}
@@ -182,10 +198,8 @@ const Showcase = () => {
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
 
-                                {/* Overlay */}
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                                {/* Floating Action Buttons */}
                                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                                     <button className="p-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors duration-300">
                                         <ExternalLink className="w-4 h-4 text-white" />
@@ -195,11 +209,9 @@ const Showcase = () => {
                                     </button>
                                 </div>
 
-                                {/* Gradient Border Effect */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
 
-                            {/* Project Content */}
                             <div className={`p-6 ${viewMode === 'list' ? 'flex-1' : ''}`}>
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="flex items-center gap-2 text-sm text-gray-400">
@@ -222,7 +234,6 @@ const Showcase = () => {
                                     </p>
                                 )}
 
-                                {/* Technologies */}
                                 {project.technologies && (
                                     <div className="flex flex-wrap gap-2 mb-4">
                                         {project.technologies.map((tech, techIndex) => (
@@ -236,20 +247,17 @@ const Showcase = () => {
                                     </div>
                                 )}
 
-                                {/* Action Button */}
                                 <button className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 group/btn">
                                     <a href={project.link}><span className="text-sm font-medium">View Project</span></a>
                                     <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
                                 </button>
                             </div>
 
-                            {/* Hover Effect Border */}
                             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/50 to-purple-500/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-xl"></div>
                         </div>
                     ))}
                 </div>
 
-                {/* Show More Button */}
                 {projects.length > 4 && (
                     <div className="text-center mt-12" data-aos="fade-up" data-aos-delay="400">
                         <button

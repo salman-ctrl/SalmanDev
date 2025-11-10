@@ -32,11 +32,9 @@ const Achievement = () => {
             offset: 100,
         });
 
-        // Menggunakan data yang sama dengan Achievement component
         const dataGambar = data[0]?.Sertifikat || [];
         setProjects(dataGambar);
 
-        // Intersection Observer for scroll animation
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
