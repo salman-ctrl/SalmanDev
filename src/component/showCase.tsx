@@ -60,10 +60,10 @@ const mockData = [
             },
             {
                 "img": "/assets/showcase/webnagari.png",
-                "title": "Learning Management System",
+                "title": "Web Information(SID)",
                 "date": "2024-06-18",
                 "company": "EduTech",
-                "description": "Quize App Learning",
+                "description": "Platform Infromasion for Village",
                 "technologies": ["Bootstrap", "Html", "Javascript"],
                 "link": "https://salman-ctrl.github.io/Website-Nagari-Kuamang-Alai-Ujung-Gading/"
             },
