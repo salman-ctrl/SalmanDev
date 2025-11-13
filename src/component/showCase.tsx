@@ -46,7 +46,7 @@ const mockData = [
                 "date": "2024-04-05",
                 "company": "Griya Digital",
                 "description": "A landing portfolio for a digital company that showcases their services and featured projects",
-                "technologies": ["HTML", "Bootstrap", "JavaScript"],
+                "technologies": ["HTML", "", "JavaScript"],
                 "link": "https://salman-ctrl.github.io/Company_Profile_Griya_Senandika/"
             },
             {
